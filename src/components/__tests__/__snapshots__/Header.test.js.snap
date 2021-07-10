@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot from Header component 1`] = `
+"<BrowserRouter>
+  <Router history={{...}}>
+    <Header>
+      <div className=\\"navbar\\">
+        <Link className=\\"link\\" to=\\"/\\">
+          <LinkAnchor className=\\"link\\" href=\\"/\\" navigate={[Function: navigate]}>
+            <a className=\\"link\\" href=\\"/\\" onClick={[Function: onClick]}>
+              <span className=\\"text\\" variant=\\"h5\\">
+                Home
+              </span>
+            </a>
+          </LinkAnchor>
+        </Link>
+        <Link className=\\"link\\" to=\\"/movies\\">
+          <LinkAnchor className=\\"link\\" href=\\"/movies\\" navigate={[Function: navigate]}>
+            <a className=\\"link\\" href=\\"/movies\\" onClick={[Function: onClick]}>
+              <span className=\\"text\\" variant=\\"h5\\">
+                Movies
+              </span>
+            </a>
+          </LinkAnchor>
+        </Link>
+      </div>
+    </Header>
+  </Router>
+</BrowserRouter>"
+`;

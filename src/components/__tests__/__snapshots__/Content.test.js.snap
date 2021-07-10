@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot from Content component 1`] = `
+"<Router history={{...}}>
+  <Content />
+</Router>"
+`;
